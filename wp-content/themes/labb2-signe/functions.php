@@ -1,5 +1,6 @@
-<?php 
+<?php
 
-function info_funktion(){
+function info_funktion()
+{
     echo 'Ny version av Wordpress - uppgradera!';
 }
