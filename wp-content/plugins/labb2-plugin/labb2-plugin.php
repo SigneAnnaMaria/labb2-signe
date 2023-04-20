@@ -15,11 +15,6 @@ if (!function_exists('add_action')) {
 //Krokar(Hooks)
 //Kortkoder(Shortcodes)
 
-
-
-
-
-
 //Skrivs ut före functions.php, före allt 
 echo 'Mitt första tillägg';
 
