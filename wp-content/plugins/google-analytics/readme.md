@@ -1,0 +1,1 @@
+You need to replace 'UA-XXXXXXXXX-X' with your own Google Analytics tracking ID, which you can obtain from your Google Analytics account. 
