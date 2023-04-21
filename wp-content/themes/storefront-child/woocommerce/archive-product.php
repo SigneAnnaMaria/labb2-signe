@@ -57,6 +57,13 @@ if (woocommerce_product_loop()) {
 	 */
 	do_action('woocommerce_before_shop_loop');
 
+	add_action('woocommerce_before_shop_loop_item', 'nice_shoes');
+
+	function nice_shoes()
+	{
+		echo 'Snygga skor, va?';
+	}
+
 	woocommerce_product_loop_start();
 
 	if (wc_get_loop_prop('total')) {
@@ -102,6 +109,5 @@ do_action('woocommerce_after_main_content');
  */
 do_action('woocommerce_sidebar');
 
-echo 'banan';
 
 get_footer('shop');
