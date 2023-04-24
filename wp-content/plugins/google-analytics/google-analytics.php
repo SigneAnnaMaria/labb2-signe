@@ -6,6 +6,12 @@ Version: 1.0
 Author: Signe Hellquist
 */
 
+//Säkerhetskontroll att det är WP som anropar en funktion och inte en utomstående
+if (!function_exists('add_action')) {
+    echo 'Hi there!  I\'m just a plugin, not much I can do when called directly.';
+    exit;
+}
+
 // Lägger till Google Analytics tracking code till wp_footer
 function google_analytics_tracking_code()
 {

@@ -1,7 +1,7 @@
 <?php
 
 //Lägger till en skyndande text ovanför köp knapp
-add_action('woocommerce_single_variation', 'hurry_buy');
+add_action('woocommerce_after_add_to_cart_button', 'hurry_buy');
 
 function hurry_buy()
 {

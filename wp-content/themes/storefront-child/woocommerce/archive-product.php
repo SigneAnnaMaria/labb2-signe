@@ -61,7 +61,7 @@ if (woocommerce_product_loop()) {
 
 	function nice_shoes()
 	{
-		echo 'Snygga skor, va?';
+		echo 'Snygga grejer, va?';
 	}
 
 	woocommerce_product_loop_start();
