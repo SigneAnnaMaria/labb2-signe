@@ -15,6 +15,6 @@ Navigerade in till Woocommerce-mappen under plugin, in i mappen templates och ko
 
 Jag skapade en functions.php i mitt child tema för att lägga till en add_action och en remove_action. Placeringen för dessa metoder hittade jag återigen via visuella template guides som finns online och lag la till texten "Köp! Skynda dig innan den tar slut!" brevid Lägg i varukorg-knappen. Gjorde en remove_action av siffer-resultat brevid Standarssorteringen.  
 
-Testade med några olika plugin-bygg, labb2-signe och la in plugin boilerplate template för att se vad den innehöll. Skapade till slut en Google Analytics plugin med en egen readme.md fil för att text ska synas när en installerar tilläget. 
+Testade med några olika plugin-bygg och la in plugin boilerplate template för att se vad den innehöll. Skapade till slut ett plugin med en välkomsttext på wp-panelen. 
 
 La till några olika betaltillägg som Swish och Klarna, samt tillägg som ACF och CPT inför nästkommande gruppprojekt! 
