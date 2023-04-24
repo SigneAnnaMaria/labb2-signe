@@ -10,19 +10,14 @@ if (!function_exists('add_action')) {
     exit;
 }
 
-//Setup(Aktivering)
-//Includes
-//Krokar(Hooks)
-//Kortkoder(Shortcodes)
+// Hakar in 'admin_notices' och visar ett välkomstmeddelande på wp-panelen
+add_action('admin_notices', 'custom_welcome_message');
 
-//Skrivs ut före functions.php, före allt 
-echo 'Mitt första tillägg';
-
-
-//Fungerar ej nedan, ska ta en funktion från functions.php i mitt tema
-add_action('wp_footer', 'runfunktion');
-
-function runfunktion()
+// Funktion som visar välkomstmeddelandet
+function custom_welcome_message()
 {
-    info_funktion();
+    $welcome_message = 'Välkommen till Wordpress! Det här är ett meddelande från Signes plugin :).';
+    echo '<div class="notice notice-success is-dismissible"><p>' . $welcome_message . '</p></div>';
 }
+
+//Detta skrivs ut före functions.php
