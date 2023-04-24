@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Advanced Custom Fields (ACF) - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-16 21:02:32+0000\n"
+"PO-Revision-Date: 2023-04-24 09:19:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1214,11 +1214,6 @@ msgid_plural "%s taxonomies synchronized."
 msgstr[0] "Taxonomi synkroniserad."
 msgstr[1] "%s taxonomier synkroniserade."
 
-#: includes/admin/views/acf-post-type/advanced-settings.php:1006
-#: includes/admin/views/acf-taxonomy/advanced-settings.php:906
-msgid "Permalink Rewrite"
-msgstr "Omskrivning av permalink"
-
 #: includes/admin/views/acf-post-type/advanced-settings.php:1010
 #: includes/admin/views/acf-post-type/advanced-settings.php:1180
 #: includes/admin/views/acf-post-type/basic-settings.php:40
@@ -1342,6 +1337,11 @@ msgstr "Namn på ny %s"
 #: includes/admin/views/acf-taxonomy/advanced-settings.php:998
 msgid "Publicly Queryable"
 msgstr "Offentligt sökbar"
+
+#: includes/admin/views/acf-post-type/advanced-settings.php:1006
+#: includes/admin/views/acf-taxonomy/advanced-settings.php:906
+msgid "Permalink Rewrite"
+msgstr "Omskrivning av permalänk"
 
 #. Author URI of the plugin
 msgid "https://wpengine.com/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields"
