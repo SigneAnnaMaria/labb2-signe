@@ -57,9 +57,9 @@ if (woocommerce_product_loop()) {
 	 */
 	do_action('woocommerce_before_shop_loop');
 
-	add_action('woocommerce_before_shop_loop_item', 'nice_shoes');
+	add_action('woocommerce_before_shop_loop_item', 'nice_things');
 
-	function nice_shoes()
+	function nice_things()
 	{
 		echo 'Snygga grejer, va?';
 	}
